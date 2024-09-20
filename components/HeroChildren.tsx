@@ -4,7 +4,7 @@ export default function HeroChildren() {
       <h1 className="text-5xl md:text-7xl font-bold text-center ">
         Hi, I am
         <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-xl p-4 ">
-          Atharva
+          NAme Developer
         </span>
       </h1>
       <h1 className="text-lg md:text-xl font-bold text-center">

@@ -10,27 +10,24 @@ export default function HeroChildren() {
       </h1>
       <h1 className="text-sm  md:text-xl  font-bold text-center">
         I’m a full-stack developer I build the web with
-        <span className="text-blue-500">TypeScript</span>,
-        <span className="text-green-500">JavaScript</span>,
-        <span className="text-red-500">Express</span>,
-        <span className="text-yellow-500">Prisma</span>,
-        <span className="text-purple-500">WebSockets</span>,
-        <span className="text-orange-500">Redis</span>, and
-        <span className="text-teal-500">Docker</span>. I build scalable,
+        <span className="text-indigo-500"> TypeScript</span>,
+        <span className="text-indigo-500"> JavaScript</span>,
+        <span className="text-indigo-500"> Express</span>,
+        <span className="text-indigo-500"> Prisma</span>,
+        <span className="text-indigo-500"> WebSockets</span>,
+        <span className="text-indigo-500"> Redis</span>, and
+        <span className="text-indigo-500"> Docker</span> . I build scalable,
         interactive web apps that focus on performance and user experience.
       </h1>
 
       <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-20">
-        <button
-          onClick={() => {
-            window.open(
-              "https://www.linkedin.com/in/atharva-chopde-193a5421a/"
-            );
-          }}
-          className="hover:scale-105 bg-indigo-500 font-bold p-4 rounded-xl shadow-xl shadow-indigo-500/30 hover:shadow-indigo-500/50 hover:bg-white hover:text-black transition ease-in-out duration-200 w-full md:w-auto"
-        >
-          Hire Me
-        </button>
+       <a
+  href="mailto:atharvachopde@gmail.com"
+  className="hover:scale-105 bg-indigo-500 font-bold p-4 rounded-xl shadow-xl shadow-indigo-500/30 hover:shadow-indigo-500/50 hover:bg-white hover:text-black transition ease-in-out duration-200 w-full md:w-auto"
+>
+  Hire Me
+</a>
+
         <a
           href="#projects"
           className="hover:scale-105 bg-green-500 font-bold p-4 rounded-xl shadow-xl shadow-green-500/30 hover:shadow-indigo-500/50 hover:bg-white hover:text-black transition ease-in-out duration-200 w-full md:w-auto"

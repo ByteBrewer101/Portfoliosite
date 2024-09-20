@@ -2,29 +2,28 @@ export const ProjectData = [
   {
     Title: "Gryffincode: Coding Platform",
     link: "https://gryffincode.netlify.app/",
-    desc: "Developed a Harry Potter-themed coding platform to help beginners learn programming. Backend built with Express and MongoDB, frontend with React and Tailwind CSS.",
+    desc: "Created a Harry Potter-themed platform to help beginners learn coding. Backend with Express and MongoDB, frontend built using React and Tailwind CSS.",
   },
   {
-    Title: "Chatterbox: WebSocket Application",
+    Title: "Chatterbox: Chat Application",
     link: "https://friendly-beijinho-a03091.netlify.app/",
-    desc: "Created a WebSocket-based chat app using Node.js and React. Backend in TypeScript with real-time communication, frontend with React and Tailwind CSS.",
+    desc: "Built a real-time chat app with Node.js and WebSocket. Backend developed in TypeScript, frontend using React and Tailwind CSS for smooth user experience.",
   },
   {
-    Title: "LinkedIn Job Scraper and Google Sheets Integration",
+    Title: "LinkedIn Job Scraper & Google Sheets Integration",
     link: "https://github.com/AtharvaChopde/webscraper",
-    desc: "Developed a web scraper in Python to extract job postings from LinkedIn. Automated data storage in Google Sheets using gspread and Google Colab.",
+    desc: "Developed a Python web scraper for LinkedIn job postings. Automated storage of the scraped data into Google Sheets using gspread and Google Colab.",
   },
   {
     Title: "File Sharing Application",
     link: "https://github.com/AtharvaChopde/python-Notes-sharing-system",
-    desc: "Built a Python-based file-sharing app using Socket and Tkinter for seamless local network file transfers. Integrated PyQRCode for QR code-based sharing.",
+    desc: "Created a Python-based file-sharing tool with Tkinter and Socket for local network transfers. QR code generation integrated using PyQRCode for easy sharing.",
   },
   {
     Title: "Unity Game Development Project",
     link: "https://play.unity.com/en/games/615edb3b-0649-4ffb-a126-90c79880ce77/a-backrooms-horror-based-game",
-    desc: "Developed a game in Unity using C# with AI navigation and raycasting techniques for dynamic in-game character behavior. Optimized game performance for multiple devices.",
+    desc: "Developed a horror game in Unity using C# with AI navigation and raycasting. Optimized game performance for smooth play on multiple platforms and devices.",
   },
-
 ];
 
 export const dockItems = [
@@ -66,7 +65,7 @@ export const dockItems = [
         />
       </svg>
     ),
-    href: "https://www.linkedin.com/in/atharva-chopde-193a5421a/",
+    href: "mailto:atharvachopde@gmail.com",
   },
   {
     title: "Projects",

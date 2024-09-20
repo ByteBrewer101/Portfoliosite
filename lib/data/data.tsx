@@ -1,16 +1,31 @@
-export const ProjectData =[
+export const ProjectData = [
+  {
+    Title: "Gryffincode: Coding Platform",
+    link: "https://gryffincode.netlify.app/",
+    desc: "Developed a Harry Potter-themed coding platform to help beginners learn programming. Backend built with Express and MongoDB, frontend with React and Tailwind CSS.",
+  },
+  {
+    Title: "Chatterbox: WebSocket Application",
+    link: "https://friendly-beijinho-a03091.netlify.app/",
+    desc: "Created a WebSocket-based chat app using Node.js and React. Backend in TypeScript with real-time communication, frontend with React and Tailwind CSS.",
+  },
+  {
+    Title: "LinkedIn Job Scraper and Google Sheets Integration",
+    link: "https://github.com/AtharvaChopde/webscraper",
+    desc: "Developed a web scraper in Python to extract job postings from LinkedIn. Automated data storage in Google Sheets using gspread and Google Colab.",
+  },
+  {
+    Title: "File Sharing Application",
+    link: "https://github.com/AtharvaChopde/python-Notes-sharing-system",
+    desc: "Built a Python-based file-sharing app using Socket and Tkinter for seamless local network file transfers. Integrated PyQRCode for QR code-based sharing.",
+  },
+  {
+    Title: "Unity Game Development Project",
+    link: "https://play.unity.com/en/games/615edb3b-0649-4ffb-a126-90c79880ce77/a-backrooms-horror-based-game",
+    desc: "Developed a game in Unity using C# with AI navigation and raycasting techniques for dynamic in-game character behavior. Optimized game performance for multiple devices.",
+  },
 
-    {
-        "Title":"title1",
-        "link":"link1",
-        "desc":"desc",
-        
-    }
-
-]
-
-
-
+];
 
 export const dockItems = [
   {
@@ -22,7 +37,7 @@ export const dockItems = [
         viewBox="0 0 24 24"
         strokeWidth={1.5}
         stroke="currentColor"
-        className="size-6"
+        className="size-3"
       >
         <path
           strokeLinecap="round"
@@ -31,7 +46,7 @@ export const dockItems = [
         />
       </svg>
     ),
-    href: "/",
+    href: "#home",
   },
   {
     title: "Contact Me",
@@ -42,7 +57,7 @@ export const dockItems = [
         viewBox="0 0 24 24"
         strokeWidth={1.5}
         stroke="currentColor"
-        className="size-6"
+        className="size-3"
       >
         <path
           strokeLinecap="round"
@@ -51,7 +66,7 @@ export const dockItems = [
         />
       </svg>
     ),
-    href: "/settings",
+    href: "/pages/contactme",
   },
   {
     title: "Projects",
@@ -62,7 +77,7 @@ export const dockItems = [
         viewBox="0 0 24 24"
         stroke-width="1.5"
         stroke="currentColor"
-        className="size-6"
+        className="size-3"
       >
         <path
           stroke-linecap="round"
@@ -71,6 +86,6 @@ export const dockItems = [
         />
       </svg>
     ),
-    href: "/profile",
+    href: "#projects",
   },
 ];

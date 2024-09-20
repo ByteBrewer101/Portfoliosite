@@ -1,3 +1,4 @@
+"use client"
 export default function HeroChildren() {
   return (
     <div className="flex flex-col justify-center items-center w-full max-w-[40rem] mx-auto space-y-10 p-4">
@@ -20,16 +21,41 @@ export default function HeroChildren() {
       </h1>
 
       <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-20">
-        <button className="hover:scale-105 bg-indigo-500 font-bold p-4 rounded-xl shadow-xl shadow-indigo-500/30 hover:shadow-indigo-500/50 hover:bg-white hover:text-black transition ease-in-out duration-200 w-full md:w-auto">
+        <button
+          onClick={() => {
+            window.open(
+              "https://www.linkedin.com/in/atharva-chopde-193a5421a/"
+            );
+          }}
+          className="hover:scale-105 bg-indigo-500 font-bold p-4 rounded-xl shadow-xl shadow-indigo-500/30 hover:shadow-indigo-500/50 hover:bg-white hover:text-black transition ease-in-out duration-200 w-full md:w-auto"
+        >
           Hire Me
         </button>
-        <button className="hover:scale-105 bg-green-500 font-bold p-4 rounded-xl shadow-xl shadow-green-500/30 hover:shadow-indigo-500/50 hover:bg-white hover:text-black transition ease-in-out duration-200 w-full md:w-auto">
+        <a
+          href="#projects"
+          className="hover:scale-105 bg-green-500 font-bold p-4 rounded-xl shadow-xl shadow-green-500/30 hover:shadow-indigo-500/50 hover:bg-white hover:text-black transition ease-in-out duration-200 w-full md:w-auto"
+        >
           Projects
-        </button>
-        <button className="hover:scale-105 bg-red-500 font-bold p-4 rounded-xl shadow-xl shadow-red-500/30 hover:shadow-red-500/50 hover:bg-white hover:text-black transition ease-in-out duration-200 w-full md:w-auto">
+        </a>
+
+        <button
+          onClick={() => {
+            window.open("https://github.com/ByteBrewer101", "_blank");
+          }}
+          className="hover:scale-105 bg-red-500 font-bold p-4 rounded-xl shadow-xl shadow-red-500/30 hover:shadow-red-500/50 hover:bg-white hover:text-black transition ease-in-out duration-200 w-full md:w-auto"
+        >
           Github
         </button>
-        <button className="hover:scale-105 bg-orange-500  font-bold p-4 rounded-xl shadow-xl shadow-orange-500/30 hover:shadow-orange-500/50 hover:bg-white hover:text-black transition ease-in-out duration-200 w-full md:w-auto">
+
+        <button
+          onClick={() => {
+            window.open(
+              "https://drive.google.com/file/d/1MGMj65xKYMa8Fn2I1xnkm1ugLQRuHXtw/view?usp=sharing",
+              "_blank"
+            );
+          }}
+          className="hover:scale-105 bg-orange-500 font-bold p-4 rounded-xl shadow-xl shadow-orange-500/30 hover:shadow-orange-500/50 hover:bg-white hover:text-black transition ease-in-out duration-200 w-full md:w-auto"
+        >
           Resume
         </button>
       </div>

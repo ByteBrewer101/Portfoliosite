@@ -66,7 +66,7 @@ export const dockItems = [
         />
       </svg>
     ),
-    href: "/pages/contactme",
+    href: "https://www.linkedin.com/in/atharva-chopde-193a5421a/",
   },
   {
     title: "Projects",

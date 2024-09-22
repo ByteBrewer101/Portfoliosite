@@ -23,7 +23,7 @@ export default function HeroChildren() {
       <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-20">
         <a
           href="mailto:atharvachopde@gmail.com"
-          className="hover:scale-105 bg-indigo-500 font-bold p-4 rounded-xl shadow-xl shadow-indigo-500/30 hover:shadow-indigo-500/50 hover:bg-white hover:text-black transition ease-in-out duration-200 w-full md:w-auto"
+          className="hover:scale-105 bg-indigo-500  text-center font-bold p-4 rounded-xl shadow-xl shadow-indigo-500/30 hover:shadow-indigo-500/50 hover:bg-white hover:text-black transition ease-in-out duration-200 w-full md:w-auto"
         >
           Mail
         </a>

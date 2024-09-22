@@ -1,4 +1,4 @@
-"use client"
+"use client";
 export default function HeroChildren() {
   return (
     <div className="flex flex-col justify-center items-center w-full max-w-[40rem] mx-auto space-y-10 p-4">
@@ -21,12 +21,12 @@ export default function HeroChildren() {
       </h1>
 
       <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-20">
-       <a
-  href="mailto:atharvachopde@gmail.com"
-  className="hover:scale-105 bg-indigo-500 font-bold p-4 rounded-xl shadow-xl shadow-indigo-500/30 hover:shadow-indigo-500/50 hover:bg-white hover:text-black transition ease-in-out duration-200 w-full md:w-auto"
->
-  Hire Me
-</a>
+        <a
+          href="mailto:atharvachopde@gmail.com"
+          className="hover:scale-105 bg-indigo-500 font-bold p-4 rounded-xl shadow-xl shadow-indigo-500/30 hover:shadow-indigo-500/50 hover:bg-white hover:text-black transition ease-in-out duration-200 w-full md:w-auto"
+        >
+          Mail
+        </a>
 
         <a
           href="#projects"

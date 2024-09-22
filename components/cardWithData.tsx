@@ -1,6 +1,5 @@
 "use client";
 
-import { useRouter } from "next/navigation";
 import React from "react";
 
 interface CardWithDataProps {
@@ -12,29 +11,48 @@ interface CardWithDataProps {
 
 const CardWithData: React.FC<CardWithDataProps> = ({ link, title,title2, desc }) => {
 
-  const filerouter = useRouter()
+ 
+  const colors = [
+    "bg-blue-500",
+    "bg-green-500",
+    "bg-orange-500",
+    "bg-red-500",
+    "bg-yellow-500",
+  ];
+
 
   return (
     <div
       onClick={() => {
-        filerouter.push("/pages/projectpage");
+        window.open(link);
+       
       }}
-      className="bg-black relative z-0  flex space-y-4 flex-col w-auto justify-center backdrop-blur-xl p-10 border border-gray-800 rounded-xl h-96 hover:scale-105 hover:bg-blur-xl hover:shadow-white hover:border-none transition ease-in-out duration-700 hover:bg-white hover:text-black"
+      className="cursor-pointer bg-black  flex flex-col justify-between space-y-4 w-fit  backdrop-blur-xl p-10 border border-gray-800 rounded-xl min-h-72 hover:scale-105 hover:bg-blur-xl hover:shadow-white hover:border-none transition ease-in-out duration-700 hover:bg-white hover:text-black"
     >
-      <div className=" overflow-y-hidden">
+      <div className="flex flex-col justify-between">
         <h1 className="font-bold text-3xl flex justify-start">{title}</h1>
-        <h1 className="font-semibold text-xl" >{title2}</h1>
-        <p>
-          {desc.slice(0, 90)}...
-          <a className="text-blue-500 hover:pointer">read more</a>
-        </p>
+        <h1 className="font-semibold text-xl text-gray-500">{title2}</h1>
+      </div>
+      <div className="flex flex-wrap gap-2  mt-2">
+        {desc.split(",").map((i, k) => {
+          const random = Math.floor(Math.random() * colors.length);
+
+          return (
+            <span
+              key={k}
+              className={`rounded-full px-3 py-1 text-white ${colors[random]}`}
+            >
+              {i.trim()}
+            </span>
+          );
+        })}
       </div>
 
       <button
         onClick={() => {
           window.open(link);
         }}
-        className="  w-fit bg-white rounded-full p-2 transition ease-in-out duration-200 hover:bg-black hover:-rotate-45 "
+        className=" mt-2 w-fit bg-white rounded-full p-2 transition ease-in-out duration-200 hover:bg-black hover:-rotate-45 shadow-xl   "
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

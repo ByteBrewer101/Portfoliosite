@@ -22,6 +22,12 @@ const ProjectData = [
     desc: "Node.js, WebSocket, TypeScript, React, Tailwind CSS",
   },
   {
+    Title: "Chill Guy",
+    Title2: "Meme Generator",
+    link: "https://github.com/ByteBrewer101/ChillGuyMemeGen",
+    desc: "Konva.js, HTML canvas, React , Tailwind, ShadCN",
+  },
+  {
     Title: "LinkedIn Job Scraper",
     Title2: "Web Scraping application",
     link: "https://github.com/AtharvaChopde/webscraper",

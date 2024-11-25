@@ -13,7 +13,7 @@ const CardWithData: React.FC<CardWithDataProps> = ({ link, title,title2, desc })
 
  
   const colors = [
-    "bg-blue-500",
+    "bg-blue-500 ",
     "bg-green-500",
     "bg-orange-500",
     "bg-red-500",
@@ -27,7 +27,7 @@ const CardWithData: React.FC<CardWithDataProps> = ({ link, title,title2, desc })
         window.open(link);
        
       }}
-      className="cursor-pointer bg-black  flex flex-col justify-between space-y-4 w-fit  backdrop-blur-xl p-10 border border-gray-800 rounded-xl min-h-72 hover:scale-105 hover:bg-blur-xl hover:shadow-white hover:border-none transition ease-in-out duration-700 hover:bg-white hover:text-black"
+      className="cursor-pointer bg-black  flex flex-col justify-between space-y-4 w-full  backdrop-blur-xl p-10 border border-gray-800 rounded-xl min-h-72 hover:scale-105 hover:bg-blur-xl hover:shadow-white hover:border-none transition ease-in-out duration-700 hover:bg-white hover:text-black"
     >
       <div className="flex flex-col justify-between">
         <h1 className="font-bold text-3xl flex justify-start">{title}</h1>
@@ -40,7 +40,7 @@ const CardWithData: React.FC<CardWithDataProps> = ({ link, title,title2, desc })
           return (
             <span
               key={k}
-              className={`rounded-full px-3 py-1 text-white ${colors[random]}`}
+              className={`rounded-full px-3 py-1 text-sm text-white ${colors[random]}`}
             >
               {i.trim()}
             </span>

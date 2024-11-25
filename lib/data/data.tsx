@@ -10,6 +10,11 @@ export const ProjectData = [
     desc: "Built a real-time chat app with Node.js and WebSocket. Backend developed in TypeScript, frontend using React and Tailwind CSS for smooth user experience.",
   },
   {
+    Title: "Meme Generator",
+    link: "https://github.com/ByteBrewer101/ChillGuyMemeGen",
+    desc: "Learnt and Used Konva - a html canvas library ",
+  },
+  {
     Title: "LinkedIn Job Scraper & Google Sheets Integration",
     link: "https://github.com/AtharvaChopde/webscraper",
     desc: "Developed a Python web scraper for LinkedIn job postings. Automated storage of the scraped data into Google Sheets using gspread and Google Colab.",

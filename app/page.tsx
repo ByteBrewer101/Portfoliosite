@@ -24,7 +24,7 @@ const ProjectData = [
   {
     Title: "Chill Guy",
     Title2: "Meme Generator",
-    link: "https://github.com/ByteBrewer101/ChillGuyMemeGen",
+    link: "https://chillguy.netlify.app/",
     desc: "Konva.js, HTML canvas, React , Tailwind, ShadCN",
   },
   {

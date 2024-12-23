@@ -47,7 +47,7 @@ export default function HeroChildren() {
         <button
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1MGMj65xKYMa8Fn2I1xnkm1ugLQRuHXtw/view?usp=sharing",
+              "https://drive.google.com/file/d/1EXKjnfGgjrOSiA8JREqVY8znjF3zB0Ly/view?usp=sharing",
               "_blank"
             );
           }}
